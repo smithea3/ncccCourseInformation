@@ -1,9 +1,5 @@
 import json
-subject = pyscript.interpreter.globals.get('subject')
-course = pyscript.interpreter.globals.get('course')
-section = pyscript.interpreter.globals.get('section')
-school = pyscript.interpreter.globals.get('school')
-
+from js import subject, course, section    
 fp = open('courses.json')
 coursesDB = json.load(fp)
 Element('course-title').write(coursesDB.get(subject).get(course).get('title'))
