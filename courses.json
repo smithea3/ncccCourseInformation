@@ -2,9 +2,9 @@
   "MAT": {
     "171": {
       "title": "Precalculus Algebra",
-      "credit-hours": 4,
-      "class-hours": 3,
-      "lab-hours": 2,
+      "credit-hours": "4",
+      "class-hours": "3",
+      "lab-hours": "2",
       "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
       "catalog-description": "This course is designed to develop topics which are fundamental to the study of Calculus. Emphasis is placed on solving equations and inequalities, solving systems of equations and inequalities, and  analysis of functions (absolute value, radical, polynomial, rational, exponential, and logarithmic) in multiple representations. Upon completion, students should be able to select and use appropriate models and techniques for finding solutions to algebra-related problems with and without technology. This course has been approved for transfer under the CAA as a general education course in Mathematics. This course has been approved for transfer under the ICAA as a general education course in Mathematics.",
       "slos": [
