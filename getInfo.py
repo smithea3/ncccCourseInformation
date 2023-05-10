@@ -1,5 +1,8 @@
 import json
-subject = "MAT"; course = "171"; section = "00000"; school = "MitchellCC"
+subject = {pyscript.interpreter.globals.get('subject')}
+course = {pyscript.interpreter.globals.get('course')}
+section = {pyscript.interpreter.globals.get('section')}
+school = {pyscript.interpreter.globals.get('school')}
 fp = open("courses.json")
 coursesDB = json.load(fp)
 Element("course-title").write(coursesDB.get(subject).get(course).get("title"))
