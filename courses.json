@@ -1,6 +1,138 @@
 {
   "MAT": {
+    "000": {
+      "is-active": false,
+      "title": "Template Course",
+      "credit-hours": "3",
+      "class-hours": "3",
+      "lab-hours": "0",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "110": {
+      "is-active": true,
+      "title": "Precalculus Algebra",
+      "credit-hours": "4",
+      "class-hours": "3",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course provides an activity-based approach that develops measurement skills and mathematical literacy using technology to solve problems for non-math intensive programs. Topics include unit conversions and estimation within a variety of measurement systems; ratio and proportion; basic geometric concepts; financial literacy; and statistics including measures of central tendency, dispersion, and charting of data. Upon completion, students should be able to demonstrate the use of mathematics and technology to solve practical problems, and to analyze and communicate results.",
+      "slos": [
+        "SLO1: Demonstrate estimation skills and justify results.",
+        "SLO2: Use dimensional analysis to convert units of measurement.",
+        "SLO3: Employ fractions, percentages and proportions to solve contextual problems.",
+        "SLO4: Compute geometric measurements of perimeter, area, volume and angles.",
+        "SLO5: Use technology to analyze and interpret elements of personal finance.",
+        "SLO6: Compare and contrast measures of center and measures of dispersion.",
+        "SLO7: Interpret tables, charts, and graphs and communicate results.",
+        "SLO8: Apply quantitative reasoning to solve problems."
+      ]
+    },
+    "121": {
+      "is-active": true,
+      "title": "Algebra/Trigonometry I",
+      "credit-hours": "3",
+      "class-hours": "2",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course provides an integrated approach to technology and the skills required to manipulate, display, and interpret mathematical functions and formulas used in problem solving. Topics include the properties of plane and solid geometry, area and volume, and basic proportion applications; simplification, evaluation, and solving of algebraic equations and inequalities and radical functions; complex numbers; right triangle trigonometry; and systems of equations. Upon completion, students will be able to demonstrate the ability to use mathematics and technology for problem-solving, analyzing and communicating results.",
+      "slos": [
+        "SLO1: Use geometric principles to solve industrial application problems involving perimeter, area, and volume.",
+        "SLO2: Employ basic algebraic operations to simplify, evaluate, and solve proportions, radical and other algebraic functions, equations, and inequalities.",
+        "SLO3: Perform basic algebraic operations involving complex numbers.",
+        "SLO4: Solve applied problems using trigonometric principles involving right triangles.",
+        "SLO5: Solve applied problems using systems of equations involving two and three variables.",
+        "SLO6: Use technology to solve practical problems and communicate results.",
+        "SLO8: Apply quantitative reasoning to solve problems."
+      ]
+    },
+    "122": {
+      "is-active": true,
+      "title": "Algebra/Trigonometry II",
+      "credit-hours": "3",
+      "class-hours": "2",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course is designed to cover concepts in algebra, function analysis, and trigonometry. Topics include exponential and logarithmic functions, transformations of functions, Law of Sines, Law of Cosines, vectors, and statistics. Upon completion, students should be able to demonstrate the ability to use mathematics and technology for problem-solving, analyzing and communicating results.",
+      "slos": [
+        "SLO1: Solve relevant contextual problems involving exponential and logarithmic functions.",
+        "SLO2: Interpret and create transformations of functions.",
+        "SLO3: Utilize the Law of Sines and Law of Cosines to solve oblique triangles and their applications.",
+        "SLO4: Define vectors and compute vector operations.",
+        "SLO5: Apply vector concepts to solve applications.",
+        "SLO6: Employ basic statistical concepts to summarize and present data and draw conclusions.",
+        "SLO7: Apply quantitative reasoning to solve problems."
+      ]
+    },
+    "143": {
+      "is-active": true,
+      "title": "Precalculus Trigonometry",
+      "credit-hours": "3",
+      "class-hours": "2",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "",
+      "slos": [
+        "SLO1: Judge the reasonableness of results using estimation, logical processes, and a proper understanding of quantity.",
+        "SLO2: Utilize proportional reasoning to solve contextual problems and make conversions involving various units of measurement",
+        "SLO3: Identify, interpret, and compare linear and exponential rates of growth to make predictions and informed decisions based on data and graphs",
+        "SLO4: Differentiate between simple and compound interest and analyze the long-term effects of saving, investing, and borrowing",
+        "SLO5: Describe, analyze, and interpret statistical information such as graphs, tables, and summarized data to draw appropriate conclusions when presented with actual statistical studies",
+        "SLO6: Determine probabilities and expected values and use them to assess risk and make informed decisions",
+        "SLO7: Analyze civic and/or societal issues and critique decisions using relevant mathematics",
+        "SLO8: Apply quantitative reasoning to solve problems."
+      ]
+    },
+    "152": {
+      "is-active": true,
+      "title": "Statistical Methods I",
+      "credit-hours": "4",
+      "class-hours": "3",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course provides a project-based approach to introductory statistics with an emphasis on using real-world data and statistical literacy. Topics include descriptive statistics, correlation and regression, basic probability, discrete and continuous probability distributions, confidence intervals and hypothesis testing. Upon completion, students should be able to use appropriate technology to describe important characteristics of a data set, draw inferences about a population from sample data, and interpret and communicate results.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "167": {
+      "is-active": true,
+      "title": "Discrete Mathematics",
+      "credit-hours": "3",
+      "class-hours": "3",
+      "lab-hours": "0",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
     "171": {
+      "is-active": true,
       "title": "Precalculus Algebra",
       "credit-hours": "4",
       "class-hours": "3",
@@ -16,6 +148,195 @@
         "SLO6: Construct the composition and inverse of functions.",
         "SLO7: Use polynomial, exponential and logarithmic functions to model various real-world situations in order to analyze, draw conclusions, and make predictions.",
         "SLO8: Apply quantitative reasoning to solve problems."
+      ]
+    },
+    "172": {
+      "is-active": true,
+      "title": "Precalculus Trigonometry",
+      "credit-hours": "4",
+      "class-hours": "3",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course is designed to develop an understanding of topics which are fundamental to the study of Calculus. Emphasis is placed on the analysis of trigonometric functions in multiple representations, right and oblique triangles, vectors, polar coordinates, conic sections, and parametric equations. Upon completion, students should be able to select and use appropriate models and techniques for finding solutions to trigonometry-related problems with and without technology.",
+      "slos": [
+        "SLO1: Use the unit circle and right triangle definitions to evaluate and graph trigonometric functions and their inverses, to derive trigonometric identities, and to simplify trigonometric expressions.",
+        "SLO2: Use multiple methods to solve problems involving trigonometric equations, right triangles, and oblique triangles.",
+        "SLO3: Demonstrate knowledge of vector definitions and perform vector operations.",
+        "SLO4: Convert equations and graphs between rectangular and polar coordinate systems, and apply to complex numbers.",
+        "SLO5: Use multiple representations to define, construct and analyze conic sections.",
+        "SLO6: Create, graph, and analyze parametric equations.",
+        "SLO7: Apply quantitative reasoning to solve problems."
+      ]
+    },
+    "175": {
+      "is-active": true,
+      "title": "Precalculus",
+      "credit-hours": "5",
+      "class-hours": "4",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course provides an intense study of the topics which are fundamental to the study of calculus. Emphasis is placed on equations and inequalities, functions and their graphs, with special attention to polynomial, rational, exponential, logarithmic and trigonometric functions, and analytic trigonometry and geometry. Upon completion, students should be able to solve practical problems and use appropriate models for analysis and prediction.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "223": {
+      "is-active": true,
+      "title": "Applied Calculus",
+      "credit-hours": "3",
+      "class-hours": "2",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course provides an introduction to the calculus concepts of differentiation and integration by way of application and is designed for engineering technology students. Topics include limits, slope, derivatives, related rates, areas, integrals, and applications. Upon completion, students should be able to demonstrate an understanding of the use of calculus and technology to solve problems and to analyze and communicate results.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "252": {
+      "is-active": true,
+      "title": "Statistical Methods II",
+      "credit-hours": "4",
+      "class-hours": "3",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course is designed to provide a technology-based treatment of multiple sample inferential statistics. Emphasis is placed on two sample hypothesis tests and confidence intervals, linear and multiple regression, analysis of variance, experimental design, and non-parametric techniques. Upon completion, students should be able to draw statistical inferences and communicate results on multiple sample data taken from business and health, social, natural, and applied sciences.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "263": {
+      "is-active": true,
+      "title": "Brief Calculus",
+      "credit-hours": "4",
+      "class-hours": "3",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course is designed to introduce concepts of differentiation and integration and their applications to solving problems. Topics include graphing, differentiation, and integration with emphasis on applications drawn from business, economics, and biological and behavioral sciences. Upon completion, students should be able to demonstrate an understanding of the use of basic calculus and technology to solve problems and to analyze and communicate results.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "271": {
+      "is-active": true,
+      "title": "Template Course",
+      "credit-hours": "4",
+      "class-hours": "3",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course is designed to develop the topics of differential and integral calculus. Emphasis is placed on limits, continuity, derivatives and integrals of algebraic and transcendental functions of one variable. Upon completion, students should be able to select and use appropriate models and techniques for finding solutions to derivative-related problems with and without technology.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "272": {
+      "is-active": true,
+      "title": "Calculus II",
+      "credit-hours": "3",
+      "class-hours": "3",
+      "lab-hours": "0",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course is designed to develop advanced topics of differential and integral calculus. Emphasis is placed on the applications of definite integrals, techniques of integration, indeterminate forms, improper integrals, infinite series, conic sections, parametric equations, polar coordinates, and differential equations. Upon completion, students should be able to select and use appropriate models and techniques for finding solutions to integral-related problems with and without technology.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "273": {
+      "is-active": true,
+      "title": "Calculus III",
+      "credit-hours": "4",
+      "class-hours": "3",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course is designed to develop the topics of multivariate calculus. Emphasis is placed on multivariate functions, partial derivatives, multiple integration, solid analytical geometry, vector valued functions, and line and surface integrals. Upon completion, students should be able to select and use appropriate models and techniques for finding the solution to multivariate-related problems with and without technology.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "280": {
+      "is-active": true,
+      "title": "Linear Algebra",
+      "credit-hours": "2",
+      "class-hours": "2",
+      "lab-hours": "0",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course provides an introduction to linear algebra topics. Emphasis is placed on the development of abstract concepts and applications for vectors, systems of equations, matrices, determinants, vector spaces, multi-dimensional linear transformations, eigenvectors, eigenvalues, diagonalization and orthogonality. Upon completion, students should be able to demonstrate understanding of the theoretical concepts and select and use appropriate models and techniques for finding solutions to linear algebra-related problems with and without technology.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
+      ]
+    },
+    "285": {
+      "is-active": true,
+      "title": "Differential Equations",
+      "credit-hours": "3",
+      "class-hours": "2",
+      "lab-hours": "2",
+      "prerequisites": "Please refer to the Mitchell Community College Catalog for more information.",
+      "catalog-description": "This course provides an introduction to topics involving ordinary differential equations. Emphasis is placed on the development of abstract concepts and applications for first-order and linear higher-order differential equations, systems of differential equations, numerical methods, series solutions, eigenvalues and eigenvectors, and LaPlace transforms. Upon completion, students should be able to demonstrate understanding of the theoretical concepts and select and use appropriate models and techniques for finding solutions to differential equations-related problems with and without technology.",
+      "slos": [
+        "SLO1: ",
+        "SLO2: ",
+        "SLO3: ",
+        "SLO4: ",
+        "SLO5: ",
+        "SLO6: ",
+        "SLO7: ",
+        "SLO8: "
       ]
     }
   }
