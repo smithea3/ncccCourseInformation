@@ -4,7 +4,7 @@ fp = open('courses.json')
 coursesDB = json.load(fp)
 
 courseTitle = coursesDB.get(subject).get(course).get('title')
-courseTitleComplete = courseTitle+"-"+section+semester
+courseTitleComplete = str(courseTitle+"-"+section+semester)
 courseCreditHours = coursesDB.get(subject).get(course).get('credit-hours')
 courseClassHours = coursesDB.get(subject).get(course).get('class-hours')
 courseLabHours = coursesDB.get(subject).get(course).get('lab-hours')
