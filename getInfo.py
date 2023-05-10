@@ -8,6 +8,7 @@ courseTitleComplete = str(course+"-"+section+" "+semester)
 courseCreditHours = coursesDB.get(subject).get(course).get('credit-hours')
 courseClassHours = coursesDB.get(subject).get(course).get('class-hours')
 courseLabHours = coursesDB.get(subject).get(course).get('lab-hours')
+courseDescription = coursesDB.get(subject).get(course).get('course-description')
 
 
 Element('course-title').write(courseTitle)
@@ -15,3 +16,4 @@ Element('courseid-section-semester').write(courseTitleComplete)
 Element('credit-hours').element.append(courseCreditHours)
 Element('class-hours').element.append(courseClassHours)
 Element('lab-hours').element.append(courseLabHours)
+Element('course-description').write(courseDescription)
