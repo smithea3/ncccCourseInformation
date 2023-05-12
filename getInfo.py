@@ -18,6 +18,5 @@ Element('credit-hours').element.append(courseCreditHours)
 Element('class-hours').element.append(courseClassHours)
 Element('lab-hours').element.append(courseLabHours)
 Element('catalog-description').write(catalogDescription)
-Element('slos').write("Upon successfully completing this course, students will be able to demonstrate the following outcomes.<ol id='slo-list'></ol>")
 for slo in courseSLOs:
-    Element('slo-list').element.append("<li>{slo}</li>")
+    Element('slo-list').element.append(slo)
