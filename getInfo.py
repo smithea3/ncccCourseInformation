@@ -19,4 +19,7 @@ Element('class-hours').element.append(courseClassHours)
 Element('lab-hours').element.append(courseLabHours)
 Element('catalog-description').write(catalogDescription)
 for slo in courseSLOs:
-    Element('slo-list').element.append(<li>{slo}</li>)
+    i = 1
+    Element('slo-list').element.append('<li id="slo-{i}"></li>')
+    Element('slo-{i}').element.append({slo})
+    i+=1
