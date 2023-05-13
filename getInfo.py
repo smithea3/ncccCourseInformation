@@ -18,4 +18,6 @@ Element('credit-hours').element.append(courseCreditHours)
 Element('class-hours').element.append(courseClassHours)
 Element('lab-hours').element.append(courseLabHours)
 Element('catalog-description').write(catalogDescription)
+for slo in courseSLOs:
+    Element('slo-list').element(catalogDescription).innerHTML.append(f'<li>{slo}</li>')
 
