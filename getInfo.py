@@ -14,7 +14,7 @@ def createList(x):
     output = "<ul>"
     for item in x:
         output += f"<li>{item}</li>"
-    output += "<\ul>"
+    output += "</ul>"
     return str(output)
 
 Element('course-title').write(courseTitle)
