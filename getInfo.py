@@ -10,7 +10,11 @@ courseClassHours = coursesDB.get(subject).get(course).get('class-hours')
 courseLabHours = coursesDB.get(subject).get(course).get('lab-hours')
 catalogDescription = coursesDB.get(subject).get(course).get('catalog-description')
 courseSLOs = coursesDB.get(subject).get(course).get('slos')
-
+def createList(x):
+    output = "<ul>"
+    for item in x:
+        output += f"<li>{item}</li>"
+    output += "<\ul>"
 
 Element('course-title').write(courseTitle)
 Element('courseid-section-semester').write(courseTitleComplete)
@@ -18,6 +22,4 @@ Element('credit-hours').element.append(courseCreditHours)
 Element('class-hours').element.append(courseClassHours)
 Element('lab-hours').element.append(courseLabHours)
 Element('catalog-description').write(catalogDescription)
-for slo in courseSLOs:
-    Element('slo-list').write("f'<li>{slo}</li>'",append=True)
-
+Element('slo-list').write(createList(courseSLOs))
