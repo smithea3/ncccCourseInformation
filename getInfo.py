@@ -1,7 +1,10 @@
 import json
-from js import subject, course, section, semester    
-fp = open('courses.json')
-coursesDB = json.load(fp)
+from js import subject, course, section, semester, college   
+fpCourses = open('courses.json')
+coursesDB = json.load(fpCourses)
+
+fpPolicies = open('college_policies.json')
+collegePoliciesDB = json.load(fpPolicies)
 
 courseTitle = coursesDB.get(subject).get(course).get('title')
 courseTitleComplete = str(subject+'-'+course+"-"+section+' '+semester)
@@ -10,6 +13,7 @@ courseClassHours = coursesDB.get(subject).get(course).get('class-hours')
 courseLabHours = coursesDB.get(subject).get(course).get('lab-hours')
 catalogDescription = coursesDB.get(subject).get(course).get('catalog-description')
 courseSLOs = coursesDB.get(subject).get(course).get('slos')
+collegePolicies = collegePoliciesDB.get(college)
 
 def createList(x):
     output = "<ul>"
@@ -18,8 +22,11 @@ def createList(x):
     output += "</ul>"
     return output
 
-def getTitleAndContent(x):
-    return x
+def getPolicyTitleAndContent(x):
+    for item in x:
+        title = x.get('title')
+        content = x.get('content')
+    return [title, content]
 
 Element('course-title').write(courseTitle)
 Element('courseid-section-semester').write(courseTitleComplete)
@@ -28,3 +35,4 @@ Element('class-hours').element.append(courseClassHours)
 Element('lab-hours').element.append(courseLabHours)
 Element('catalog-description').write(catalogDescription)
 Element('slo-list').element.innerHTML = createList(courseSLOs)
+
