@@ -6,6 +6,23 @@ coursesDB = json.load(fpCourses)
 fpPolicies = open('college_policies.json')
 collegePoliciesDB = json.load(fpPolicies)
 
+def createList(x):
+    output = "<ul>"
+    for item in x:
+        output += f"<li>{item}</li>"
+    output += "</ul>"
+    return output
+
+def getCollegePolicies(policiesDB):
+    collegePolicies = policiesDB.get('policies')
+    output = ""
+    for policy in policiesDB:
+        title = policy.get('title')
+        content = policy.get('content')
+        output += f"<h1>{title}</h1>"
+        output += content
+    return output
+
 collegeName = collegePoliciesDB.get(college).get('collegeName')
 
 courseTitle = coursesDB.get(subject).get(course).get('title')
@@ -39,19 +56,3 @@ Element('slo-list').element.innerHTML = createList(courseSLOs)
 Element('college-policies').element.innerHTML = createList(getCollegePolicies(collegePoliciesDB))
 
 
-def createList(x):
-    output = "<ul>"
-    for item in x:
-        output += f"<li>{item}</li>"
-    output += "</ul>"
-    return output
-
-def getCollegePolicies(policiesDB):
-    collegePolicies = policiesDB.get('policies')
-    output = ""
-    for policy in policiesDB:
-        title = policy.get('title')
-        content = policy.get('content')
-        output += f"<h1>{title}</h1>"
-        output += content
-    return output
