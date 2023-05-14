@@ -50,8 +50,8 @@ def getCollegePolicies(policiesDB):
     collegePolicies = policiesDB.get('policies')
     output = ""
     for policy in policiesDB:
-        title = policies.get('title')
-        content = policies.get('content')
+        title = policy.get('title')
+        content = policy.get('content')
         output += f"<h1>{title}</h1>"
         output += content
     return output
