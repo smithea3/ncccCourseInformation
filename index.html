@@ -13,12 +13,23 @@
     course= urlParams.get('course');
     section= urlParams.get('section');
     semester= urlParams.get('semester');
+    
+    let url = window.location.href;
+    if(url.includes('college')){
+      college = urlParams.get('college');
+    }else{
+      college = "templateCollege"
+    }
 </script>
 
 <py-config>
     [[fetch]]
     from = "https://raw.githubusercontent.com/smithea3/ncccCourseInformation/main/"
     files = ["courses.json"]
+
+    [[fetch]]
+    from = "https://raw.githubusercontent.com/smithea3/ncccCourseInformation/main/"
+    files = ["college_policies.json"]
 </py-config>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Syllabus Design</title>
@@ -47,14 +58,12 @@
         <p>Faculty Information</p>
         <h1>Catalog Description</h1>
         <p id="catalog-description">Catalog Description</p>
-        <h1>Learning Management System (LMS)</h1>
-        <p id="lms-information">Learning Management System Text</p>
         <h1>Learning Outcomes (SLOs)</h1>
-        <p id="slos">Upon successful completion of the course, students will be able to demonstrate the following outcomes.
-            <div id="slo-list">
-            </div>
-        </p>
-        <h1>Recommendations for Success</h1>
+        <p id="slos">Upon successfully completing this course, students will be able to demonstrate the following outcomes.</p>
+        <div id="slo-list">
+            <p>Your SLOs will generate here.</p>
+        </div>
+        <p></p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
