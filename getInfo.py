@@ -6,6 +6,9 @@ coursesDB = json.load(fpCourses)
 fpPolicies = open('college_policies.json')
 collegePoliciesDB = json.load(fpPolicies)
 
+collegeName = collegePolicies.get('college-name')
+collegePolicies = collegePoliciesDB.get(college)
+
 courseTitle = coursesDB.get(subject).get(course).get('title')
 courseTitleComplete = str(subject+'-'+course+"-"+section+' '+semester)
 courseCreditHours = coursesDB.get(subject).get(course).get('credit-hours')
@@ -13,7 +16,7 @@ courseClassHours = coursesDB.get(subject).get(course).get('class-hours')
 courseLabHours = coursesDB.get(subject).get(course).get('lab-hours')
 catalogDescription = coursesDB.get(subject).get(course).get('catalog-description')
 courseSLOs = coursesDB.get(subject).get(course).get('slos')
-collegePolicies = collegePoliciesDB.get(college)
+
 
 def createList(x):
     output = "<ul>"
@@ -35,5 +38,5 @@ Element('class-hours').element.append(courseClassHours)
 Element('lab-hours').element.append(courseLabHours)
 Element('catalog-description').write(catalogDescription)
 Element('slo-list').element.innerHTML = createList(courseSLOs)
-Element('college-name').write(college)
+Element('college-name').write(collegeName)
 
