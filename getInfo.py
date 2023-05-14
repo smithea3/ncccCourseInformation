@@ -21,6 +21,7 @@ def getCollegePolicies(policiesDB, college):
         content = collegePolicies.get(policy).get('content')
         output += f"<h1>{title}</h1>"
         output += content
+    print(output)
     return output
 
 collegeName = collegePoliciesDB.get(college).get('collegeName')
