@@ -1,6 +1,13 @@
 {
-    "exampleCollege": {
-        
+    "templateCollege": {
+        "lms": {
+            "title": "Learning Management System",
+            "content": "<p>This college uses a learning management system.</p>"
+        },
+        "technologyRequirements": {
+            "title": "Technology Requirements and Resources",
+            "content": "<p>This college uses technology.</p>"
+        }
     },
     "mitchellcc": {
         "lms": {
