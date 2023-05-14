@@ -15,7 +15,6 @@ def createList(x):
 
 def getCollegePolicies(policiesDB, college):
     collegePolicies = policiesDB.get(college).get('policies')
-    print(collegePolicies)
     output = ""
     for policy in collegePolicies:
         title = collegePolicies.get(policy).get('title')
