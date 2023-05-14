@@ -13,12 +13,13 @@ def createList(x):
     output += "</ul>"
     return output
 
-def getCollegePolicies(policiesDB):
-    collegePolicies = policiesDB.get('policies')
+def getCollegePolicies(policiesDB, college):
+    collegePolicies = policiesDB.get(college).get('policies')
+    print(collegePolicies)
     output = ""
-    for policy in policiesDB:
-        title = policy.get('title')
-        content = policy.get('content')
+    for policy in collegePolicies:
+        title = collegePolicies.get(policy).get('title')
+        content = collegePolicies.get(policy).get('content')
         output += f"<h1>{title}</h1>"
         output += content
     return output
@@ -53,6 +54,6 @@ Element('catalog-description').write(catalogDescription)
 ### Calls the helper function createList() to to add the HTML to the slo-list div.
 Element('slo-list').element.innerHTML = createList(courseSLOs)
 
-Element('college-policies').element.innerHTML = createList(getCollegePolicies(collegePoliciesDB))
+Element('college-policies').element.innerHTML = createList(getCollegePolicies(collegePoliciesDB, college))
 
 
