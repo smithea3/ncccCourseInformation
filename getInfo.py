@@ -7,7 +7,6 @@ fpPolicies = open('college_policies.json')
 collegePoliciesDB = json.load(fpPolicies)
 
 collegeName = collegePolicies.get('college-name')
-collegePolicies = collegePoliciesDB.get(college)
 
 courseTitle = coursesDB.get(subject).get(course).get('title')
 courseTitleComplete = str(subject+'-'+course+"-"+section+' '+semester)
