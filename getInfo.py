@@ -6,7 +6,7 @@ coursesDB = json.load(fpCourses)
 fpPolicies = open('college_policies.json')
 collegePoliciesDB = json.load(fpPolicies)
 
-collegeName = collegePoliciesDB.get(college).get('college-name')
+collegeName = collegePoliciesDB.get(college).get('collegeName')
 
 courseTitle = coursesDB.get(subject).get(course).get('title')
 courseTitleComplete = str(subject+'-'+course+"-"+section+' '+semester)
@@ -23,12 +23,6 @@ def createList(x):
         output += f"<li>{item}</li>"
     output += "</ul>"
     return output
-
-def getPolicyTitleAndContent(x):
-    for item in x:
-        title = x.get('title')
-        content = x.get('content')
-    return [title, content]
 
 Element('course-title').write(courseTitle)
 Element('courseid-section-semester').write(courseTitleComplete)

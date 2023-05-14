@@ -1,6 +1,6 @@
 {
     "templateCollege": {
-        "college-name": "Template College",
+        "collegeName": "Template College",
         "lms": {
             "title": "Learning Management System",
             "content": "<p>This college uses a learning management system.</p>"
@@ -11,6 +11,7 @@
         }
     },
     "mitchellcc": {
+        "collegeName": "Mitchell Community College",
         "lms": {
             "title": "Learning Managemenet Systems (LMS)",
             "content": "<p>All curriculum courses have a space on Mitchell Community College’s learning management system (LMS). The College’s LMS is Moodle, which is hosted by OpenLMS. Moodle is the college-wide adopted delivery portal for online course content. The College’s Moodle site can be accessed from the <a href='https://mitchellcc.edu/my-mitchell>My Mitchell</a> page on the Mitchell Community College website or at <a href='https://mycourses.mitchellcc.edu'>https://mycourses.mitchellcc.edu</a> by direct link.</p>"
