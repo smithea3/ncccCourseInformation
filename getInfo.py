@@ -11,9 +11,10 @@ courseLabHours = coursesDB.get(subject).get(course).get('lab-hours')
 catalogDescription = coursesDB.get(subject).get(course).get('catalog-description')
 courseSLOs = coursesDB.get(subject).get(course).get('slos')
 def createList(x):
-    output = ""
+    output = "<ul>"
     for item in x:
         output += f"<li>{item}</li>"
+    output += "</ul>"
     return output
 
 Element('course-title').write(courseTitle)
