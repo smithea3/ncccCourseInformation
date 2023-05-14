@@ -16,7 +16,7 @@
         "collegeName": "Mitchell Community College",
         "policies": {
             "lms": {
-                "title": "Learning Managemenet Systems (LMS)",
+                "title": "Learning Management Systems (LMS)",
                 "content": "<p>All curriculum courses have a space on Mitchell Community College’s learning management system (LMS). The College’s LMS is Moodle, which is hosted by OpenLMS. Moodle is the college-wide adopted delivery portal for online course content. The College’s Moodle site can be accessed from the <a href='https://mitchellcc.edu/my-mitchell>My Mitchell</a> page on the Mitchell Community College website or at <a href='https://mycourses.mitchellcc.edu'>https://mycourses.mitchellcc.edu</a> by direct link.</p>"
             },
             "recommendationsForSuccess": {
@@ -49,7 +49,7 @@
             },
             "academicDishonesty": {
                 "title": "Academic Dishonesty",
-                "content": "<p>Mitchell Community College makes every reasonable effort to maintain integrity in all academic programs. To compromise integrity through acts of academic dishonesty jeopardizes the quality of instruction and the caliber of education we aim to provide our students. Any form of academic dishonesty, by any student at the College, is unacceptable and will result in disciplinary action.</p><p><strong>Definitions and Examples of Academic Dishonesty include, but may not be limited to:</strong></p><p><strong>Cheating:</strong> Intentionally and/or knowingly using unauthorized materials, information, or study aids in any academic exercise or matter.</p><p><strong>Fabrication:</strong>: Intentionally and/or knowingly falsifying or inventing information or citations in an academic exercise or matter.</p><p><strong>Facilitating Academic Dishonesty:</strong>Intentionally and/or knowingly helping or attempting to help another to commit an act of cheating, plagiarism, or fabrication.</p><p><strong>Self-Plagiarism:</strong>The use of one's own previous work in another context without citing that it was used previously. The writer should let the reader know that this was not the first use of the material.</p><p><strong></strong></p>"
+                "content": "<p>Mitchell Community College makes every reasonable effort to maintain integrity in all academic programs. To compromise integrity through acts of academic dishonesty jeopardizes the quality of instruction and the caliber of education we aim to provide our students. Any form of academic dishonesty, by any student at the College, is unacceptable and will result in disciplinary action.</p><p><strong>Definitions and Examples of Academic Dishonesty include, but may not be limited to:</strong></p><p><strong>Cheating:</strong> Intentionally and/or knowingly using unauthorized materials, information, or study aids in any academic exercise or matter.</p><p><strong>Fabrication:</strong>: Intentionally and/or knowingly falsifying or inventing information or citations in an academic exercise or matter.</p><p><strong>Facilitating Academic Dishonesty: </strong>Intentionally and/or knowingly helping or attempting to help another to commit an act of cheating, plagiarism, or fabrication.</p><p><strong>Self-Plagiarism: </strong>The use of one&#39;s own previous work in another context without citing that it was used previously. The writer should let the reader know that this was not the first use of the material.</p>"
             }
         }
 
