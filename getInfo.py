@@ -53,6 +53,6 @@ Element('catalog-description').write(catalogDescription)
 ### Calls the helper function createList() to to add the HTML to the slo-list div.
 Element('slo-list').element.innerHTML = createList(courseSLOs)
 
-Element('college-policies').element.innerHTML = createList(getCollegePolicies(collegePoliciesDB, college))
+Element('college-policies').element.innerHTML = getCollegePolicies(collegePoliciesDB, college)
 
 
