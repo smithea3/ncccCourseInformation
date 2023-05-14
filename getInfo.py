@@ -35,4 +35,5 @@ Element('class-hours').element.append(courseClassHours)
 Element('lab-hours').element.append(courseLabHours)
 Element('catalog-description').write(catalogDescription)
 Element('slo-list').element.innerHTML = createList(courseSLOs)
+Element('college-name').write(college)
 

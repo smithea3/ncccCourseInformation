@@ -1,5 +1,6 @@
 {
     "templateCollege": {
+        "college-name": "Template College",
         "lms": {
             "title": "Learning Management System",
             "content": "<p>This college uses a learning management system.</p>"
