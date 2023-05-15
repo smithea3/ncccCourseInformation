@@ -1,5 +1,14 @@
 {
   "college": {
+    "templateCollege": {
+      "2023FA": {
+        "MAT-000-00000": {
+          "location": "Enter your classroom location here.",
+          "meeting-time": "Enter your meeting times here.",
+          "census-date": "Enter your census date here."
+        }
+      }
+    }
     "mitchellcc": {
       "2023SP": {
         "MAT-110-SSB1": {
