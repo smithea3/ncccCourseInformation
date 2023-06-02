@@ -3,22 +3,34 @@
     "2023SP": {
       "MAT-110-SSB1": {
         "location": "Vocational Building, Room 106",
-        "meeting-time": "M/W 1:00 PM - 2:15 PM",
+        "meeting-time-SS": "M/W 1:00 PM - 2:15 PM",
+        "class-days": ["Monday", "Wednesday"],
+        "start-date": "2023-08-01",
+        "end-date": "2023-12-31",
         "census-date": "01/19/2023"
       },
       "MAT-171-SST1F": {
         "location": "Vocational Building, Room 212",
-        "meeting-time": "M/W/F 9:00 AM - 10:15 AM",
+        "meeting-time-SS": "M/W/F 9:00 AM - 10:15 AM",
+        "class-days": ["Monday", "Wednesday", "Friday"],
+        "start-date": "2023-08-01",
+        "end-date": "2023-12-31",
         "census-date": "01/19/2023"
       },
       "MAT-272-SSB1": {
         "location": "Vocational Building, Room 106",
-        "meeting-time": "M/W 11:00 AM - 11:50 AM and T/Th 11:00 AM - 12:10 PM",
+        "meeting-time-SS": "M/W 11:00 AM - 11:50 AM and T/Th 11:00 AM - 12:10 PM",
+        "class-days": ["Monday", "Wednesday"],
+        "start-date": "2023-08-01",
+        "end-date": "2023-12-31",
         "census-date": "01/19/2023"
       },
       "MAT-171-OKI1": {
         "location": "Lectures are provided online as prerecorded lectures. There are no scheduled meeting times for class times.",
-        "meeting-time": "M/T/W/Th/F/Sa/Su On-Line",
+        "meeting-time-SS": "M/T/W/Th/F/Sa/Su On-Line",
+        "class-days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "start-date": "2023-08-01",
+        "end-date": "2023-12-31",
         "census-date": "10/16/2023"
       }
     }
@@ -27,7 +39,10 @@
     "2023FA": {
       "MAT-000-00000": {
         "location": "Enter your classroom location here.",
-        "meeting-time": "Enter your meeting times here.",
+        "meeting-time-SS": "Enter your meeting times here.",
+        "class-days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "start-date": "2023-08-01",
+        "end-date": "2023-12-31",
         "census-date": "Enter your census date here."
       }
     }
