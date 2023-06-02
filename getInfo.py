@@ -1,17 +1,11 @@
 import json
 from js import subject, course, section, semester, college   
+
 fpCourses = open('courses.json')
 coursesDB = json.load(fpCourses)
 
 fpPolicies = open('college_policies.json')
 collegePoliciesDB = json.load(fpPolicies)
-
-def createList(x):
-    output = "<ul>"
-    for item in x:
-        output += f"<li>{item}</li>"
-    output += "</ul>"
-    return output
 
 def getCollegePolicies(policiesDB, college):
     collegePolicies = policiesDB.get(college).get('policies')
@@ -22,6 +16,17 @@ def getCollegePolicies(policiesDB, college):
         output += f"<h1>{title}</h1>"
         output += content
     return output
+    
+def getCoursePolicies(coursePoliciesDB, college):
+    collegePolicies = policiesDB.get(college).get('policies')
+    output = ""
+    for policy in collegePolicies:
+        title = collegePolicies.get(policy).get('title')
+        content = collegePolicies.get(policy).get('content')
+        output += f"<h1>{title}</h1>"
+        output += content
+    return output
+
 
 collegeName = collegePoliciesDB.get(college).get('collegeName')
 
