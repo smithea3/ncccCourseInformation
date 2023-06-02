@@ -7,7 +7,7 @@
         "class-days": ["Monday", "Wednesday"],
         "start-date": "2023-08-01",
         "end-date": "2023-12-31",
-        "census-date": "01/19/2023"
+        "census-date": "2023-01-19"
       },
       "MAT-171-SST1F": {
         "location": "Vocational Building, Room 212",
@@ -15,7 +15,7 @@
         "class-days": ["Monday", "Wednesday", "Friday"],
         "start-date": "2023-08-01",
         "end-date": "2023-12-31",
-        "census-date": "01/19/2023"
+        "census-date": "2023-01-19"
       },
       "MAT-272-SSB1": {
         "location": "Vocational Building, Room 106",
@@ -23,7 +23,7 @@
         "class-days": ["Monday", "Wednesday"],
         "start-date": "2023-08-01",
         "end-date": "2023-12-31",
-        "census-date": "01/19/2023"
+        "census-date": "2023-01-19"
       },
       "MAT-171-OKI1": {
         "location": "Lectures are provided online as prerecorded lectures. There are no scheduled meeting times for class times.",
@@ -31,7 +31,7 @@
         "class-days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         "start-date": "2023-08-01",
         "end-date": "2023-12-31",
-        "census-date": "10/16/2023"
+        "census-date": "2023-10-16"
       }
     }
   },
