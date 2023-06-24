@@ -12,6 +12,7 @@ def createSLOList(slos):
     for slo in slos:
         listHTML += "<li>"+slo+"</li>"
     listHTML+="</ul>"
+    return listHTML
 
 
     
