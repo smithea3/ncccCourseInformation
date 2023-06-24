@@ -7,6 +7,14 @@ coursesDB = json.load(fpCourses)
 fpPolicies = open('college_policies.json')
 collegePoliciesDB = json.load(fpPolicies)
 
+def createSLOList(slos):
+    listHTML = "<ul>"
+    for slo in slos:
+        listHTML += "<li>"+slo+"</li>"
+    listHTML="</ul>"
+
+
+    
 def getCollegePolicies(policiesDB, college):
     collegePolicies = policiesDB.get(college).get('policies')
     output = ""
@@ -56,9 +64,7 @@ Element('lab-hours').element.append(courseLabHours)
 Element('catalog-description').write(catalogDescription)
 
 ### Calls the helper function createList() to to add the HTML to the slo-list div.
-Element('slo-list').element.innerHTML = createList(courseSLOs)
+Element('slo-list').element.innerHTML = createSLOList(courseSLOs)
 
 ### Gets college policies and prints them at the end of the syllabus
 Element('college-policies').element.innerHTML = getCollegePolicies(collegePoliciesDB, college)
-
-
