@@ -11,7 +11,7 @@ def createSLOList(slos):
     listHTML = "<ul>"
     for slo in slos:
         listHTML += "<li>"+slo+"</li>"
-    listHTML="</ul>"
+    listHTML+="</ul>"
 
 
     
@@ -63,7 +63,7 @@ Element('lab-hours').element.append(courseLabHours)
 ### Writes the course catalog description to its respective place
 Element('catalog-description').write(catalogDescription)
 
-### Calls the helper function createList() to to add the HTML to the slo-list div.
+### Calls the helper function createSLOList() to to add the HTML to the slo-list div.
 Element('slo-list').element.innerHTML = createSLOList(courseSLOs)
 
 ### Gets college policies and prints them at the end of the syllabus
