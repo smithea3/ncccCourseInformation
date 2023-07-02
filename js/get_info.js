@@ -157,4 +157,3 @@ function getCourseInformation(urlParams) {
 
 var urlParams = getAllUrlParams()
 getCourseInformation(urlParams)
-console.log(instructor_information["0626512"]["name"])
