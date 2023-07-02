@@ -7,7 +7,14 @@
         "class-days": ["Monday", "Wednesday"],
         "start-date": "2023-08-01",
         "end-date": "2023-12-31",
-        "census-date": "2023-01-19"
+        "census-date": "2023-01-19",
+        "course-materials": {
+          "textbook-information": "This is where you will enter your textbook information."
+        },
+        "course-policies": {
+            "policy-1-title": "policy-1-text",
+            "policy-2-title": "policy-2-text"
+        }
       },
       "MAT-171-SST1F": {
         "location": "Vocational Building, Room 212",

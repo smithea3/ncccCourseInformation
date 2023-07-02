@@ -163,8 +163,6 @@ function getInstructorInformation(urlParams) {
         document.getElementById("instructor-office-phone-number").innerHTML += instructor_information[urlParams.instructor]["instructor-office-phone-number"]
         document.getElementById("instructor-office-location").innerHTML += instructor_information[urlParams.instructor]["instructor-office-location"]
         document.getElementById("instructor-student-support-hours").innerHTML += instructor_information[urlParams.instructor]["instructor-student-support-hours"]
-    } else {
-        document.getElementById("semester").innerText = "(20YYXX)"
     }
 }
 
