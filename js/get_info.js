@@ -155,5 +155,19 @@ function getCourseInformation(urlParams) {
     }
 }
 
+function getInstructorInformation(urlParams) {
+    if (urlParams.hasOwnProperty("instructor")) {
+        document.getElementById("instructor-name").innerHTML += instructor_information[urlParams.instructor]["instructor-name"]
+        document.getElementById("instructor-email-address").innerHTML += instructor_information[urlParams.instructor]["instructor-email-address"]
+        document.getElementById("instructor-response-time").innerHTML += instructor_information[urlParams.instructor]["instructor-response-time"]
+        document.getElementById("instructor-office-phone-number").innerHTML += instructor_information[urlParams.instructor]["instructor-office-phone-number"]
+        document.getElementById("instructor-office-location").innerHTML += instructor_information[urlParams.instructor]["instructor-office-location"]
+        document.getElementById("instructor-student-support-hours").innerHTML += instructor_information[urlParams.instructor]["instructor-student-support-hours"]
+    } else {
+        document.getElementById("semester").innerText = "(20YYXX)"
+    }
+}
+
 var urlParams = getAllUrlParams()
 getCourseInformation(urlParams)
+getInstructorInformation(urlParams)
