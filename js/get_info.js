@@ -4,20 +4,20 @@ import important_dates from '../json/important_dates.json' assert { type: 'json'
 import instructor_information from '../json/instructor_information.json' assert { type: 'json' };
 import section_info from '../json/section_info.json' assert { type: 'json' };
 
-fetch("./json/courses.json")
-    .then(response => response.json())
+//fetch("./json/courses.json")
+//    .then(response => response.json())
 
-fetch("./json/college_policies.json")
-    .then(response => response.json())
+//fetch("./json/college_policies.json")
+//    .then(response => response.json())
 
-fetch("./json/important_dates.json")
-    .then(response => response.json())
+//fetch("./json/important_dates.json")
+//    .then(response => response.json())
 
-fetch("./json/instructor_information.json")
-    .then(response => response.json())
+//fetch("./json/instructor_information.json")
+//    .then(response => response.json())
 
-fetch("./json/section_info.json")
-    .then(response => response.json())
+//fetch("./json/section_info.json")
+//    .then(response => response.json())
 
 // const queryString = window.location.search;
 // const urlParams = new URLSearchParams(queryString);
