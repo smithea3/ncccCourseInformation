@@ -104,9 +104,9 @@ function getAllUrlParams(url) {
 function getCourseInformation(urlParams) {
     // Get the college name
     if (urlParams.hasOwnProperty("college")) {
-        document.getElementById("college-name").innerText = colllege_policies[urlParams["college"]]["collegeName"]
+        document.getElementById("college-name").innerText = colllege_policies[urlParams["college"]]["college-name"]
     } else {
-        document.getElementById("college-name").innerText = colllege_policies["templateCollege"]["collegeName"]
+        document.getElementById("college-name").innerText = colllege_policies["templateCollege"]["college-name"]
     }
     // Get the subject (i.e. MAT, BIO, etc.) from URL parameters
     if (urlParams.hasOwnProperty("subject")) {
